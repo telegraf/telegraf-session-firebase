@@ -1,0 +1,41 @@
+{
+  "name": "telegraf-session-firebase",
+  "version": "0.0.0",
+  "description": "Firebase powered session middleware for Telegraf",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/telegraf/telegraf-session-firebase.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegraf",
+    "session",
+    "middleware",
+    "firebase"
+  ],
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraf-session-firebase/issues"
+  },
+  "homepage": "https://github.com/telegraf/telegraf-session-firebase#readme",
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "files": ["index.js"],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "ava test"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-ava": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
