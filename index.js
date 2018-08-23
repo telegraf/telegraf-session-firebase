@@ -13,7 +13,7 @@ module.exports = (sessionRef, opts) => {
     if (!session || Object.keys(session).length === 0) {
       return sessionRef.child(key).remove()
     }
-    return sessionRef.child(key).update(session)
+    return sessionRef.child(key).set(session)
   }
 
   return (ctx, next) => {
