@@ -1,6 +1,6 @@
 {
   "name": "telegraf-session-firebase",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Firebase powered session middleware for Telegraf",
   "main": "index.js",
   "repository": {
